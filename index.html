@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <div class="secondPart">
+        <div class="avatar-time">
+          <figure data-testid="test-user-avatar">
+            <img src="/images/SYMP PREVIEW-577.jpg" alt="avatar" />
+          </figure>
+          <div data-testid="test-user-time" id="time"></div>
+        </div>
+
+        <h2 aria-label="UserName" data-testid="test-user-name">Dolapo Ajala</h2>
+        <p data-testid="test-user-bio">
+          I’m Frontend Developer. My journey into tech began with a solid
+          technical foundation but expanded during my time in the Intro to
+          Software Engineering program at ALX Academy, where I sharpened my
+          skills in HTML, CSS, and JavaScript and built strong professional
+          attributes like empathy, problem-solving, and a growth mindset. I’m
+          passionate about learning new things, collaborating with people, and
+          turning ideas into clean, user-focused digital and physical
+          experiences.
+        </p>
+
+        <div class="HobbiesDislikes">
+          <div class="hobbies">
+            <ul data-testid="test-user-hobbies"></ul>
+            <h4>Hobbies</h4>
+            <li>Listening to Music</li>
+            <li>Playing Video Games</li>
+          </div>
+
+          <div class="dislike">
+            <ul data-testid="test-user-dislikes"></ul>
+            <h4>Dislikes</h4>
+            <li>Dishonesty</li>
+            <li>Noise</li>
+          </div>
+        </div>
+        <ul data-testid="test-user-social-links" class="socials">
+          <a
+            href="https://x.com/dp7954"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://github.com/Dydex"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ajala-dolapo-756394281/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </ul>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>

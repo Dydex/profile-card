@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: gray;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-time {
+  display: flex;
+
+  align-items: start;
+}
+
+.secondPart {
+  background-color: #010c28;
+  padding: 20px;
+  color: rgb(218, 206, 206);
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+figure img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.HobbiesDislikes {
+  display: flex;
+  text-align: start;
+  gap: 80px;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+}
+
+.dislike {
+  display: flex;
+  flex-direction: column;
+}
+
+ul,
+h4 {
+  padding: 0;
+  color: gray;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondPart {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .secondPart {
+    width: 50%;
+    height: auto;
+  }
+}
